@@ -1,0 +1,41 @@
+{
+  "name": "purejs-mousetip",
+  "version": "2.1.5",
+  "description": "A pure javascript solution for creating tooltips that follow your mouse",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeleisner/purejs-mousetip"
+  },
+  "author": "Joel Eisner <jeisner93@gmail.com>",
+  "scripts": {
+    "build-es2015": "npx gulp build-es2015",
+    "build-legacy": "npx gulp build-legacy",
+    "build": "npx gulp build",
+    "build-commonjs-module": "npx gulp build-commonjs-module",
+    "build-es2015-module": "npx gulp build-es2015-module",
+    "build-modules": "npx gulp build-modules",
+    "watch": "npx gulp watch"
+  },
+  "homepage": "http://joeleisner.com/purejs-mousetip",
+  "keywords": [
+    "javascript",
+    "mousetip",
+    "mousetips",
+    "tooltip",
+    "tooltips",
+    "vanilla"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
